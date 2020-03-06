@@ -1,0 +1,7 @@
+<h1> <%= @episode.date %></h1>
+
+<%= @episode.guests.each do |g| %>
+<%= link_to @episode.guests.name, "/guests/#{g.id}"%>
+<% end %>
+
+
