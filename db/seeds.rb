@@ -25,3 +25,6 @@ date = Date.parse('2015-09-08')
   date = date.next
 end
 
+ap1 = Appearance.create(guest_id: 1, episode_id: 1)
+ap2 = Appearance.create(guest_id: 2, episode_id: 2)
+ap3 = Appearance.create(guest_id: 3, episode_id: 3)

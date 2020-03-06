@@ -1,0 +1,7 @@
+<h1> Guest Show Page </h1>
+
+<%= @guest.name %>
+<%= @guest.occupation %>
+<% @guest.episodes.each do |episode| %><br>
+    <%= link_to episode.date, episode %>    
+<% end %>
